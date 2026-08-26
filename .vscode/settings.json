@@ -1,0 +1,8 @@
+{
+  "java.import.projectSelection": "automatic",
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.import.maven.enabled": true,
+  "java.maven.downloadSources": true,
+  "java.test.defaultConfig": "default",
+  "java.compile.nullAnalysis.mode": "disabled"
+}
