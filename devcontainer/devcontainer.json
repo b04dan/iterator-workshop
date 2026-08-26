@@ -1,0 +1,17 @@
+{
+  "name": "Iterator Workshop",
+  "image": "mcr.microsoft.com/devcontainers/java:21",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "jebbs.plantuml"
+      ],
+      "settings": {
+        "java.configuration.updateBuildConfiguration": "automatic",
+        "java.test.defaultConfig": "default"
+      }
+    }
+  },
+  "postCreateCommand": "./mvnw -q -B dependency:go-offline"
+}
