@@ -9,14 +9,10 @@ Every exercise has failing tests. Read the test, write the code, run again.
    (IMPORTANT: wait until you see "Java: Ready" in bottom status bar)
    <img height="40" alt="image" src="https://github.com/user-attachments/assets/71902915-57e1-4de1-88a8-f576795d21fa" />
 
-4. Run the tests from the terminal or the test panel
+4. Run the tests from the terminal (./mvnw test), from the test panel or directly from the test classes
 5. When you are done, delete the codespace at https://github.com/codespaces/
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/b04dan/iterator-workshop?quickstart=1)
-
-```bash
-./mvnw test          
-```
 
 ## The two roles
 - `TourIterator` - knows where you are: `hasNext()`, `next()`
